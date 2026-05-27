@@ -1,0 +1,13 @@
+from tools.limitation_tool import extract_limitations
+
+
+sample_text = """
+One major limitation of the model is its
+high computational cost and poor generalization
+on small datasets.
+"""
+
+
+result = extract_limitations(sample_text)
+
+print(result)
